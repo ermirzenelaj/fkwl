@@ -1,0 +1,54 @@
+header{
+background-color:rgb(120, 28, 28);
+padding:5px;
+margin:0px;
+height:400px;
+background-image:url(Kuta.jpg);
+background-size:cover;
+
+border:5px solid rgb(56, 4, 4);
+font-family:"Times New Roman";
+border-radius:0px;
+}
+h1{
+    font-size:100px;
+    text-align:center;
+}
+body{
+    margin:0;
+    background-color:rgb(226, 236, 236);
+    overflow:auto;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:rgb(50, 204, 255);
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+
+    display:block;
+}
+.navbar a{
+    text-decoration:none;
+    padding:15px;
+    margin:0;
+    text-align:center;
+    display:block;
+    color:black;
+}
+.navbar li{
+    float:left;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+}
+.navbar a:active{
+    background-color:darkblue;
+    color:white;
+}
+img{
+float:right;
+}
